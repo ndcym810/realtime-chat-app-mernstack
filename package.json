@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "pnpm install --prefix backend && pnpm install --prefix frontend && pnpm --prefix frontend run build",
-    "start": "pnpm run start --prefix backend"
+    "start": "pnpm --prefix backend run start"
   },
   "keywords": [],
   "author": "",
